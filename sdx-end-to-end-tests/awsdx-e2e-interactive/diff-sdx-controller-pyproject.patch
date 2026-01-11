@@ -1,0 +1,12 @@
+diff --git a/pyproject.toml b/pyproject.toml
+index d060cc8..969c4be 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -9,7 +9,6 @@ description = "AtlanticWave-SDX project's main controller"
+ authors = [
+     { name = "Yufeng Xin", email = "yxin@renci.org" },
+     { name = "Cong Wang", email = "cwang@renci.org" },
+-    { name = "Sajith Sasidharan", email = "sajith@renci.org" },
+     { name = "Italo Valcy", email = "italo@ampath.net" },
+ ]
+ readme = "README.md"
