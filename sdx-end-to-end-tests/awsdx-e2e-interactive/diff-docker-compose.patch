@@ -1,0 +1,14 @@
+diff --git a/docker-compose.yml b/docker-compose.yml
+index 8b430f2..3bd95b3 100644
+--- a/docker-compose.yml
++++ b/docker-compose.yml
+@@ -158,6 +158,9 @@ services:
+       - .env
+     volumes:
+       - .:/sdx-end-to-end-tests
++      - ../datamodel/src/sdx_datamodel:/opt/venv/lib/python3.11/site-packages/sdx_datamodel
++      - ../pce/src/sdx_pce:/opt/venv/lib/python3.11/site-packages/sdx_pce
++
+     depends_on:
+       mongo:
+         condition: service_healthy
